@@ -1,0 +1,19 @@
+/* Dashboard.css */
+.dashboard {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .dashboard button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard button:hover {
+    background-color: #444;
+  }
+  

@@ -1,0 +1,33 @@
+.post-detail {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-detail h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  .post-detail p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-btn:hover {
+    background: #0056b3;
+  }
+  
