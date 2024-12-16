@@ -1,0 +1,77 @@
+/* General styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f4f8; /* Light background */
+}
+
+.app {
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.counter h2 {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+/* Buttons styling */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+button:first-child {
+  background-color: #28a745; /* Green for increment */
+}
+
+button:first-child:hover {
+  background-color: #218838;
+}
+
+button:nth-child(2) {
+  background-color: #dc3545; /* Red for decrement */
+}
+
+button:nth-child(2):hover {
+  background-color: #c82333;
+}
+
+button:last-child {
+  background-color: #ffc107; /* Yellow for reset */
+  color: #333;
+}
+
+button:last-child:hover {
+  background-color: #e0a800;
+}

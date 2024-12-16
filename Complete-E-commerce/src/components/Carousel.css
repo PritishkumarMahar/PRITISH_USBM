@@ -1,0 +1,34 @@
+/* Carousel.css */
+.carousel {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
