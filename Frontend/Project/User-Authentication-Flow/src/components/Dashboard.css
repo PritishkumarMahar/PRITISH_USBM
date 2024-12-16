@@ -1,0 +1,27 @@
+.dashboard-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .dashboard-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-container button {
+    padding: 10px 15px;
+    background: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-container button:hover {
+    background: #cc0000;
+  }
+  
